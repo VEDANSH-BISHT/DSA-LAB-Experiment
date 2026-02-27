@@ -32,7 +32,7 @@ int main() {
     printf("\nEmployee Details\n");
     printf("Name   : %s\n", e.name);
     printf("ID     : %d\n", e.id);
-    printf("DOB    : %02d-%02d-%04d\n",
+    printf("DOB    : %d-%d-%d\n",
            e.dob.day, e.dob.month, e.dob.year);
     printf("Salary : %.2f\n", e.salary);
 
