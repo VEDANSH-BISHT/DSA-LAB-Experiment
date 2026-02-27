@@ -27,7 +27,7 @@ int main() {
         
     }
     for(i = 0; i < 4; i=i+1) {
-        for(j = i+1; j < 5; j=j+1) {
+        for(j = i+1; j < 5-i-1; j=j+1) {
             if(strcmp(e[i].name, e[j].name) > 0) {
                 temp = e[i];
                 e[i] = e[j];
